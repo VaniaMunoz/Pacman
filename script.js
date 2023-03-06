@@ -128,7 +128,7 @@ document.onkeydown = function(e) {  // movement of ninja
               lives = lives - 1
               document.getElementById('lives').innerHTML = "Vidas " + lives;
           } else if (lives === 0) {
-              document.write("Game over! tu Record es " + score + ". actualiza para volver a empezar.")
+              document.write("Game over! tu Record es " + score + ". Actualiza para volver a empezar.")
           }       
 
   drawNinjaman();
