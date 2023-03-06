@@ -117,13 +117,13 @@ document.onkeydown = function(e) {  // movement of ninja
   if (world[ninjaman.y][ninjaman.x] === 2) {  // update score of sushi
               world[ninjaman.y][ninjaman.x] = 0;
 
-              score = score + 40
+              score = score + 30
               document.getElementById('title').innerHTML = "Record" + score;
           } else if (world[ninjaman.y][ninjaman.x] === 3) { //update score of onigiri
               world[ninjaman.y][ninjaman.x] = 0;
 
               score = score + 50
-              document.getElementById('title').innerHTML = "Record:" + score;
+              document.getElementById('title').innerHTML = "Record" + score;
           } if ((ninjaman.x === enemy1.x) && (ninjaman.y === enemy1.y) || (ninjaman.x === enemy2.x) && (ninjaman.y === enemy2.y) || (ninjaman.x === enemy3.x) && (ninjaman.y === enemy3.y)) {  //update score of ghost
               lives = lives - 1
               document.getElementById('lives').innerHTML = "Vidas " + lives;
