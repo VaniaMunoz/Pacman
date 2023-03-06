@@ -1,44 +1,89 @@
-* {
-    margin: 0;
-    padding: 0;
-}
+
+*{
+    margin: 0px;
+    padding: 0px;
+        }
+
 .row {
-    line-height: 0;
-}
+    line-height:0 ;
+        }
+        
 .wall {
-    background-color: blue;
+    background-color:rgb(43, 8, 241);
     height: 40px;
     width: 40px;
     display: inline-block;
-}
+        }
+        
 .sushi {
-    background-color: black;
+    background-color:rgb(0, 0, 0);
     height: 40px;
     width: 40px;
     display: inline-block;
-    background-image: url("sushi.png");
+    background-image: url('sushi.gif');
     background-size: contain;
-}
+        }
+        
 .onigiri {
-    background-color: black;
+    background-color:rgb(0, 0, 0);
     height: 40px;
     width: 40px;
     display: inline-block;
-    background-image: url("onigiri.png");
+    background-image: url('origini.png');
     background-size: contain;
-}
+        }
+        
 .blank {
-    background-color: black;
+    background-color:black;
     height: 40px;
     width: 40px;
     display: inline-block;
-}
-#pacman {
-    background-color: black;
+        }
+       
+#enemy1 {
+    background-color:black;
     height: 40px;
     width: 40px;
     display: inline-block;
-    background-image: url("ninja.gif");
+    background-image: url('red.gif');
     background-size: contain;
     position: absolute;
+    left: 40px;
+    top: 40px;
+        }
+        
+#enemy2 {
+    background-color:black;
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+    background-image: url('pinky.gif');
+    background-size: contain;
+    position: absolute;
+    left: 40px;
+    top: 40px;
+        }
+        
+#enemy3 {
+    background-color:black;
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+    background-image: url('pumpky.gif');
+    background-size: contain;
+    position: absolute;
+    left: 40px;
+    top: 40px;
+        }
+
+#ninjaman {
+    background-color:black;
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+    background-image: url('ninja.gif');
+    background-size: contain;
+    position: absolute;
+    left: 40px;
+    top: 40px;
 }
